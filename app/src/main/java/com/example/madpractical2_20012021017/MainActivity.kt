@@ -59,4 +59,8 @@ class MainActivity : AppCompatActivity() {
             Snackbar.LENGTH_SHORT
         ).show()
     }
+
+    override fun onPause() {
+        super.onPause()
+    }
 }
