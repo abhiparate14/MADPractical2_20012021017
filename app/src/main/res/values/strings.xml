@@ -3,4 +3,7 @@
     <string name="oncreatemsg">onCreate: OnCreate Method is called</string>
     <string name="onstartmsg">onStart: OnStart Method is called</string>
     <string name="onresumemsg">onResume: OnResume Method is called</string>
+    <string name="onpause">onPause: OnPause Method is called</string>
+    <string name="onstop">onStop: OnStop Method is called</string>
+    <string name="ondestroy">onDestroy: OnDestroy Method is called</string>
 </resources>

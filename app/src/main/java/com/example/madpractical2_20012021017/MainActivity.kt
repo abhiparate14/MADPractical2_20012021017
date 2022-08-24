@@ -62,9 +62,49 @@ class MainActivity : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
+        mycl=findViewById(R.id.mycl)
+        Log.i(TAG, "onPause: OnPause Method is called")
+        Toast.makeText(
+            this,
+            "onPause: OnPause Method is called",
+            Toast.LENGTH_LONG
+        ).show()
+        Snackbar.make(
+            mycl,
+            R.string.onpause,
+            Snackbar.LENGTH_SHORT
+        ).show()
     }
 
     override fun onStop() {
         super.onStop()
+        mycl=findViewById(R.id.mycl)
+        Log.i(TAG, "onStop: OnStop Method is called")
+        Toast.makeText(
+            this,
+            "onStop: OnStop Method is called",
+            Toast.LENGTH_LONG
+        ).show()
+        Snackbar.make(
+            mycl,
+            R.string.onstop,
+            Snackbar.LENGTH_SHORT
+        ).show()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        mycl=findViewById(R.id.mycl)
+        Log.i(TAG, "onDestroy: OnDestroy Method is called")
+        Toast.makeText(
+            this,
+            "onDestroy: OnDestroy Method is called",
+            Toast.LENGTH_LONG
+        ).show()
+        Snackbar.make(
+            mycl,
+            R.string.ondestroy,
+            Snackbar.LENGTH_SHORT
+        ).show()
     }
 }
