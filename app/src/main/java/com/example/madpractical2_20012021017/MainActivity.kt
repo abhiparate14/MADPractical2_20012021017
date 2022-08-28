@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         mycl=findViewById(R.id.mycl)
-        Log.i(TAG, "onCreate: OnCreate Method is called")
+        Log.i(TAG, "OnCreate Method is called")
         Toast.makeText(
             this,
-            "onCreate: OnCreate Method is called",
+            "OnCreate Method is called",
             Toast.LENGTH_LONG
         ).show()
         Snackbar.make(
@@ -31,10 +31,10 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         mycl=findViewById(R.id.mycl)
-        Log.i(TAG, "onStart: OnStart Method is called")
+        Log.i(TAG, "OnStart Method is called")
         Toast.makeText(
             this,
-            "onStart: OnStart Method is called",
+            "OnStart Method is called",
             Toast.LENGTH_LONG
         ).show()
         Snackbar.make(
@@ -47,10 +47,10 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         mycl=findViewById(R.id.mycl)
-        Log.i(TAG, "onResume: OnResume Method is called")
+        Log.i(TAG, "OnResume Method is called")
         Toast.makeText(
             this,
-            "onResume: Onresume Method is called",
+            "Onresume Method is called",
             Toast.LENGTH_LONG
         ).show()
         Snackbar.make(
@@ -63,10 +63,10 @@ class MainActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         mycl=findViewById(R.id.mycl)
-        Log.i(TAG, "onPause: OnPause Method is called")
+        Log.i(TAG, "OnPause Method is called")
         Toast.makeText(
             this,
-            "onPause: OnPause Method is called",
+            "OnPause Method is called",
             Toast.LENGTH_LONG
         ).show()
         Snackbar.make(
@@ -79,10 +79,10 @@ class MainActivity : AppCompatActivity() {
     override fun onStop() {
         super.onStop()
         mycl=findViewById(R.id.mycl)
-        Log.i(TAG, "onStop: OnStop Method is called")
+        Log.i(TAG, "OnStop Method is called")
         Toast.makeText(
             this,
-            "onStop: OnStop Method is called",
+            "OnStop Method is called",
             Toast.LENGTH_LONG
         ).show()
         Snackbar.make(
@@ -95,10 +95,10 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         mycl=findViewById(R.id.mycl)
-        Log.i(TAG, "onDestroy: OnDestroy Method is called")
+        Log.i(TAG, "OnDestroy Method is called")
         Toast.makeText(
             this,
-            "onDestroy: OnDestroy Method is called",
+            "OnDestroy Method is called",
             Toast.LENGTH_LONG
         ).show()
         Snackbar.make(

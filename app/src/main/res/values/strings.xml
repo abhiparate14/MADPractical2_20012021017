@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">MADPractical2_20012021017</string>
-    <string name="oncreatemsg">onCreate: OnCreate Method is called</string>
-    <string name="onstartmsg">onStart: OnStart Method is called</string>
-    <string name="onresumemsg">onResume: OnResume Method is called</string>
-    <string name="onpause">onPause: OnPause Method is called</string>
-    <string name="onstop">onStop: OnStop Method is called</string>
-    <string name="ondestroy">onDestroy: OnDestroy Method is called</string>
+    <string name="oncreatemsg">OnCreate Method is called</string>
+    <string name="onstartmsg">OnStart Method is called</string>
+    <string name="onresumemsg">OnResume Method is called</string>
+    <string name="onpause">OnPause Method is called</string>
+    <string name="onstop">OnStop Method is called</string>
+    <string name="ondestroy">OnDestroy Method is called</string>
 </resources>
